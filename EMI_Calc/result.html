@@ -1,0 +1,126 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calc.result</title>
+    <link rel="stylesheet" href="style/result.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo">
+                <img src="Vector.png" alt="">
+            </div>
+            <div class="content">
+                <div class="float">
+                    <img src="icon/Vector.png" alt="" height="18px" width="18px">
+                    <p>Dashboard</p>
+                </div>
+                <div class="float emi-calc">
+                    <img src="icon/emi.png" height="18px" width="18px">
+                    <p>EMI Calc</p>
+                </div>
+                <div class="float">
+                    <img src="icon/my store.png" height="18px" width="18px">
+                    <p>Invoice Generator</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- right section -->
+        <div class="right">
+            <div class="header" style="background-color: white; width: 100%;">
+                <p style="color:#828282;font-weight:500;">Page &#8250<span
+                        style="color: #223354;font-weight:500;padding-left:10px;">EMI Calculator</span></p>
+                <div class="top-right">
+                    <img src="icon/help.png" alt="" width="20px" height="20px" style="padding-top: 10px;"><span
+                        style="margin-left: 10px;padding-top:10px;">Need Help?</span>
+                    <img src="icon/Yahya.png" alt="" width="40px" height="40px">
+                </div>
+            </div>
+
+
+            <div class="table">
+
+                <div class="table-left table-width">
+                    <div class="td-01 td">
+                        <label for="name-1" class="name"><b>Loan Amount</b></label><br>
+                            <input type="number" name="name-1" id="amount" value="5000000">
+                            <span class="name-pos">&#8377</span>
+                            <p class="sub">Enter a amount without any spaces</p>
+                    </div>
+
+                    <div class="td-02 td">
+                        <label for="name-1" class="name"><b>Loan Tenure</b></label><br>
+                            <input type="number" name="name-3" id="tenure" value="20">
+                            <p class="sub">Enter a Loan Tenure in Months / Years</p>
+                    </div>
+
+                    <div class="td-03">
+                        <button class="btn">Calculate</button>
+                    </div>
+                </div>
+
+                <div class="table-middle table-width">
+                    <div class="td-01">
+                        <label for="name-1" class="name"><b>Loan Amount</b></label><br>
+                            <input type="number" name="name-2" id="rate" value="7.5">
+                            <span class="name-pos-01">&#37</span>
+                            <p class="sub">Eg 7.5%</p>
+                    </div>
+
+                    <div class="td-02">
+                        <div class="radio">
+                            <div>
+                                <input type="radio" name="year" id="" checked>
+                                <span>Year</span>
+                            </div>
+                            <div>
+                                <input type="radio" name="year">
+                                <span>Month</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-right table-width">
+                    <div class="view">
+                        <p class="sub">Loan EMI</p>
+                        <h3>₹ 40,280</h3>
+                        <hr>
+                        <p class="sub">Total Interest Payable</p>
+                        <h3>₹ 46,67,118</h3>
+                        <hr>
+                        <p class="sub">Total Payment (Principal + Interest)</p>
+                        <h3>₹ 96,67,118</h3>
+                        <hr>
+                    </div>
+
+                    <div class="view chart">
+                        <p class="chart-p">Break-up of Total Payment</p>
+                        <img src="icon/Group 44.png" alt="">
+                        <div class="chart-div">
+                            <div class="chart-div-01">
+                                <div class="chart-circle green"></div>
+                                <p>Principal Loan Amount</p>
+                            </div>
+                            <div class="chart-div-01">
+                                <div class="chart-circle orange"></div>
+                                <p>Total Interest</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

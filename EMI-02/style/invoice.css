@@ -1,0 +1,76 @@
+body {
+    font-size: 16px;
+    font-family: Inter;
+    max-width: 100%;
+    background-color: #2233540D;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    width: 250px;
+    background-color: white;
+    height: 100vh;
+}
+
+.right {
+    flex: 1;
+}
+
+.logo img {
+    padding-top: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.content {
+    position: relative;
+    top: 15vh;
+    padding: 0 20px;
+}
+
+.float {
+    top: 500px;
+    display: flex;
+    align-items: center;
+    text-indent: 15px;
+}
+
+.float img{
+    padding-left: 20px;
+}
+
+
+.float p {
+    padding: 10px 0;
+}
+
+.emi-calc {
+    background-color: #1AB4D714;
+    border-radius: 15px;
+    color: #1AB4D7;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+.top-right {
+    display: inline-flex;
+    float: inline-end;
+    justify-content: space-between;
+}
+
+.top-right span {
+    border-right: 2px solid #CBCBCB;
+    padding-right: 10px;
+    margin-right: 10px;
+    height: 32px;
+}
