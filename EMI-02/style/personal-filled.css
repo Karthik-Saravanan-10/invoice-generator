@@ -95,10 +95,11 @@ body {
     justify-content: space-between;
 }
 
-.top-right span {
-    border-right: 2px solid #CBCBCB;
-    padding-right: 10px;
-    margin-right: 10px;
+.top-right hr {
+    border: 1px solid #CBCBCB;
+    margin-right: 24px;
+    margin-left: 26px;
+    margin-top: 5px;
     height: 32px;
 }
 
@@ -160,13 +161,13 @@ button {
 .name-pos{
     position: absolute;
     right: 62%;
-    top: 27.5%;
+    top: 31%;
 }
 
 .name-pos-01{
     position: absolute;
-    right: 36%;
-    top: 27.5%;
+    right: 35.5%;
+    top: 31%;
 }
 
 .view {
@@ -250,5 +251,5 @@ a:last-child{
     width: 98.2%;
     background-color: #2233540D;
     padding-left: 30px;
-    padding-top: 19px;
+    padding-top: 40px;
 }

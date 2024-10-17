@@ -62,10 +62,11 @@ body{
     justify-content: space-between;
 }
 
-.top-right span {
-    border-right: 2px solid black;
-    padding-right: 10px;
-    margin-right: 10px;
+.top-right hr {
+    border: 1px solid #CBCBCB;
+    margin-right: 24px;
+    margin-left: 26px;
+    margin-top: 5px;
     height: 32px;
 }
 

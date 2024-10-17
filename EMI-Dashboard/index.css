@@ -68,8 +68,15 @@ body {
 .w{
     background-color: #EFD133;
     padding: 9px;
-    border-radius: 75px;
-
+    width: 32px;
+    height: 32px;
+    color: white;
+    font-weight: 400;
+    font-size: 24px;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+    margin-top: 9px;    
 }
 
 .head-1 {
@@ -82,16 +89,22 @@ body {
     gap: 10px;
 }
 
+.top-right hr{
+    height: 34px;
+    margin-top: 17px;
+    border: 1px solid #E9E9E9;
+}
+
 .create-slot{
     font-family: Source Sans Pro;
     position:relative;
     background: #6371F2;
     border-radius: 4px;
-    padding: 10px;
+    padding: 0 10px;
     color: #E9E9E9;
-    justify-content: space-between;
-    border-right: 5px solid #E9E9E9;
-    
+    display: flex;
+    align-items: center;
+    height: 36px;
 }
 
 table {
@@ -121,9 +134,9 @@ label{
 
 .drag{
     border: 1px solid #BDBDBD;
-    border-radius: 4px;
+    border-radius: 4px;   
     box-sizing: border-box;
-    padding: 10px;
+    padding: 10px 24px;
     width: 300px;
 }
 
@@ -137,9 +150,11 @@ label{
 .drag-2{
     border: 1px solid #BDBDBD;
     border-style: dashed;
+    box-sizing: border-box;
     text-align: center;
-    line-height: 1px;
+    line-height: 5px;
     border-radius: 4px;
+    padding-bottom: 23px;
 }
 
 .btn{
