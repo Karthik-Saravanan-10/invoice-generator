@@ -11,19 +11,19 @@ body {
 
 .left {
     width: 250px;
-    height: 768px;  
+    height: 668px;  
     padding-left: 20px;
 }
 
 .right {
-    padding: 20px;
+    padding: 12px 30px;
     width: 1366px;
-    height: 768px;
+    height: 705px;
     background-color: #2233540D;
 }
 
 .logo {
-    transform: translate(80%,70%);
+    transform: translate(80%,50%);
     /* or */
     /* display: block;
     margin: 0 auto; */
@@ -32,6 +32,7 @@ body {
 .middle{
     position: relative;
     top: 150px;
+    width: 250px;
     /* line-height: 50px; */
 }
 
@@ -68,15 +69,15 @@ body {
 .w{
     background-color: #EFD133;
     padding: 9px;
-    width: 32px;
-    height: 32px;
+    width: 26px;
+    height: 26px;
     color: white;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     border-radius: 50%;
     align-content: center;
     text-align: center;
-    margin-top: 9px;    
+    margin-top: 11px;    
 }
 
 .head-1 {
@@ -109,7 +110,7 @@ body {
 
 table {
     position: absolute;
-    top: 113px;
+    top: 65px;
 }
 
 tr,td{
@@ -183,14 +184,14 @@ label{
 
 .footer img{
     position: relative;
-    top: 377px; 
+    top: 388px; 
 }
 
 .footer p {
     position: absolute;
     width: 230px;
     height: 48px;
-    top: 650px;
+    top: 660px;
     padding-top: 16px;
     padding-left: 40px;
     color: #737373;

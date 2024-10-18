@@ -11,13 +11,13 @@ body {
 }
 
 .left {
-    width: 250px;
+    width: 17%;
     background-color: white;
     height: 100vh;
 }
 
 .right {
-    flex: 1;
+    width: 83%;
 }
 
 .logo img {
@@ -74,4 +74,309 @@ body {
     margin-left: 26px;
     margin-top: 5px;
     height: 32px;
+}
+
+.top-right img:last-child{
+    margin-right: 24px;
+    margin-top: 3px;
+}
+
+
+/* Invoice content */
+
+.invoice-content{
+    padding: 55px 30px;
+}
+
+.invoice-field{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.invoice-field-left,
+.invoice-field-middle,
+.invoice-field-right{
+    width: 33%;
+}
+
+/* invoice-field */
+
+.td-01{
+    margin-bottom: 30px;
+}
+
+.td-01 label{
+    color: #bdbdbd;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.invoice-field input[type="text"]{
+    width: 320px;
+    height: 55px;
+    border-radius: 4px;
+    border: 1px solid #BDBDBD;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F4F4F;
+    padding: 16px 24px;
+    margin-top: 16px;
+}
+
+input::placeholder{
+    color: #828282;
+}
+
+/* input[type="date"]::before{
+    content: attr(placeholder);
+} */
+
+.invoice-field-right .td-01 input{
+    position: relative;
+}
+
+.invoice-field-right .td-01 img{
+    position: absolute;
+    padding-top: 40px;
+    right:  120px;
+}
+
+textarea{
+    font-family: Inter;
+    background: transparent;
+    resize: none;
+    border-radius: 4px;
+    border: 1px solid #BDBDBD;
+    margin-top: 16px;
+    width: 320px;
+    height: 268px;
+    padding: 16px 24px;
+}
+
+/* invoice-table */
+table,tr{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.invoice-table{
+    margin-top: 32px;
+    width: 100%;
+}
+
+h2{
+    color: #223354;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+/* table colomn width */
+
+.table-01 table tr td:first-child{
+    width: 5%;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.table-01 table tr td:nth-of-type(3){
+    width: 5%;
+}
+
+.table-01 table tr td:nth-of-type(2){
+    width: 40%;
+}
+
+.table-01 table tr td:nth-of-type(4),
+.table-01 table tr td:nth-of-type(5){
+    width: 10%;
+    text-align: center;
+}
+
+.table-01 table tr td:nth-of-type(5){
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* table input field */
+
+.table-01 table tr td:nth-of-type(2) input{
+    width: 90%;
+    height: 55px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F4F4F;
+    padding: 16px 24px;
+}
+
+.table-01 table tr td:nth-of-type(4) input,
+.table-01 table tr td:nth-of-type(5) input{
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    width: 124px;
+    height: 55px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F4F4F;
+    padding: 16px 24px;
+}
+
+.table-01 table tr td:nth-of-type(3) input{
+    width: 66px;
+    height: 55px;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    color: #4F4F4F;
+    padding: 16px 24px;
+}
+
+/* table row style */
+
+.table-01 table tr:first-child td{
+    background-color: #223354;
+    padding: 20px 0;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.table-01 table tr:first-child{
+    border-radius: 4px;
+}
+
+.table-01 table tr:nth-child(2) td{
+    padding: 4px 0;
+}
+
+.table-01 table tr:nth-child(3) td{
+    padding: 4px 0;
+    background-color: #E0E0E066;
+}
+
+.name-pos-rel{
+    position: relative;
+}
+
+.name-pos-01{
+    position: absolute;
+    margin-top: 19px;
+    right: 259px;
+}
+
+.name-pos{
+    position: absolute;
+    margin-top: 19px;
+    right: 87px;
+}
+
+/* button */
+.btn{
+    float: right;
+    background-color: #1AB4D7;
+    border-radius: 8px;
+    width: 88px;
+    height: 49px;
+    border: none;
+    margin: 9px 0;
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+}
+
+/* invoice-gen */
+.invoice-gen{
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.gen-left{
+    width: 76%;
+}
+
+.gen-right{
+    width: 24%;
+    padding: 24px 0;
+}
+
+.gen-left img{
+    padding: 110px 269px;
+    box-sizing: border-box;
+}
+
+.gen-01{
+    display: flex;
+    gap: 50px;
+}
+
+.gen-01-01{
+    display: flex;
+    gap: 22px;
+}
+
+.rupee{
+    padding-top: 16px;
+}
+/* 22 */
+.percent{
+    position: absolute;
+    padding-top: 17px;
+    right: 87px;
+}
+
+.font-p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #BDBDBD;
+    padding-right: 22px;
+}
+
+.kk-percent input{
+    width: 124px;
+    height: 55px;
+    background-color: transparent;
+    border: 1px solid #BDBDBD;
+    border-radius: 4px;
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 24px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.invoice-footer{
+    width: 100%;
+    display: flex;
+    gap: 38px;
+    padding: 32px 0;
+}
+
+.foot-div{
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    height: 118px;
+}
+
+.foot-div p{
+    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 24px;
+}
+
+.footer-left,
+.footer-right{
+    width: 50%;
 }
