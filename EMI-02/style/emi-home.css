@@ -161,20 +161,20 @@ button {
 
 .name-pos{
     position: absolute;
-    right: 62%;
-    top: 29%;
+    margin-left: -30px;
+    margin-top: 10px;
 }
 
 .name-pos-01{
     position: absolute;
-    right: 36%;
-    top: 29%;
+    margin-left: -30px;
+    margin-top: 10px;
 }
 
 .view {
     background-color: #FFFFFF;
     line-height: normal;
-    padding: 20px 20px 20px 30px;
+    padding: 20px 20px 10px 30px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -211,4 +211,10 @@ a:first-child {
     background-color: #2233540D;
     padding-left: 30px;
     padding-top: 19px;
+}
+
+.view hr{
+    width: 413px;
+    margin-left: -29px;
+    border: 1px solid #EFEFEF;
 }

@@ -63,8 +63,7 @@ body {
     width: 34%;
 }
 
-.td-01,
-.td-02{
+.td-01 {
     line-height: 2.5;
 }
 
@@ -104,6 +103,7 @@ body {
     height: 32px;
 }
 
+input[type="text"],
 input[type="number"] {
     padding: 10px;
     padding-left: 20px;
@@ -161,20 +161,26 @@ button {
 
 .name-pos{
     position: absolute;
-    right: 62%;
-    top: 22%;
+    margin-left: -30px;
+    margin-top: 10px;
 }
 
 .name-pos-01{
     position: absolute;
-    right: 36%;
-    top: 22%;
+    margin-left: -35px;
+    margin-top: 10px;
 }
 
 .view {
     background-color: #FFFFFF;
     line-height: normal;
-    padding: 20px 20px 20px 30px;
+    padding: 20px 20px 10px 30px;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+
+.view hr{
+    width: 413px;
+    margin-left: -29px;
+    border: 1px solid #EFEFEF;
 }

@@ -161,14 +161,14 @@ button {
 
 .name-pos{
     position: absolute;
-    right: 62%;
-    top: 31%;
+    margin-left: -30px;
+    margin-top: 10px;
 }
 
 .name-pos-01{
     position: absolute;
-    right: 35.5%;
-    top: 31%;
+    margin-left: -32px;
+    margin-top: 10px;
 }
 
 .view {
@@ -253,4 +253,10 @@ a:last-child{
     background-color: #2233540D;
     padding-left: 30px;
     padding-top: 40px;
+}
+
+.view hr{
+    width: 413px;
+    margin-left: -29px;
+    border: 1px solid #EFEFEF;
 }

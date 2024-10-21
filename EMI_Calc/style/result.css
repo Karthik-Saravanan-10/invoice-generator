@@ -161,14 +161,14 @@ button {
 
 .name-pos{
     position: absolute;
-    right: 62%;
-    top: 22%;
+    margin-left: -30px;
+    margin-top: 10px;
 }
 
 .name-pos-01{
     position: absolute;
-    right: 36%;
-    top: 22%;
+    margin-left: -30px;
+    margin-top: 10px;
 }
 
 .view {
@@ -222,4 +222,10 @@ button {
 
 .orange{
     background-color: #ED8C2B;
+}
+
+.view hr{
+    width: 413px;
+    margin-left: -29px;
+    border: 1px solid #EFEFEF;
 }

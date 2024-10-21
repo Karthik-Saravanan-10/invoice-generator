@@ -161,15 +161,10 @@ button {
 
 .name-pos{
     position: absolute;
-    right: 62%;
-    top: 31%;
+    margin-left: -30px;
+    margin-top: 10px;
 }
 
-.name-pos-01{
-    position: absolute;
-    right: 36%;
-    top: 31%;
-}
 
 .view {
     background-color: #FFFFFF;
@@ -256,4 +251,10 @@ a:first-child {
     background-color: #2233540D;
     padding-left: 30px;
     padding-top: 19px;
+}
+
+.view hr{
+    width: 413px;
+    margin-left: -29px;
+    border: 1px solid #EFEFEF;
 }
