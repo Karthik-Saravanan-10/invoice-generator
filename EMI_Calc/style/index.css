@@ -60,7 +60,7 @@ body {
 }
 
 .table .table-width{
-    width: 34%;
+    width: 33%;
 }
 
 .td-01 {
@@ -177,10 +177,11 @@ button {
     padding: 20px 20px 10px 30px;
     border-radius: 5px;
     margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 .view hr{
-    width: 413px;
+    width: 402px;
     margin-left: -29px;
     border: 1px solid #EFEFEF;
 }

@@ -59,7 +59,7 @@ body {
 }
 
 .table .table-width{
-    width: 34%;
+    width: 33%;
 }
 
 .td-01,
@@ -225,7 +225,7 @@ button {
 }
 
 .view hr{
-    width: 413px;
+    width: 399px;
     margin-left: -29px;
     border: 1px solid #EFEFEF;
 }
