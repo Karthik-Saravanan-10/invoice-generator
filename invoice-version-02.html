@@ -1,0 +1,203 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Generator</title>
+    <link rel="stylesheet" href="./EMI-02/style/invoice.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="left" style="position: fixed;">
+            <div class="logo">
+                <img src="./EMI-02/Vector.png" alt="">
+            </div>
+            <div class="content">
+                <div class="float">
+                    <img src="./EMI-02/icon/Vector.png" alt="" height="20px" width="20px">
+                    <p>Dashboard</p>
+                </div>
+                <div class="float">
+                    <img src="./EMI-02/icon/EMI_calc.png" height="20px" width="20px">
+                    <p>EMI Calc</p>
+                </div>
+                <div class="float emi-calc">
+                    <img src="./EMI-02/icon/invoice.png" height="20px" width="20px">
+                    <p>Invoice Generator</p>
+                </div>
+            </div>
+        </div>
+        <div class="right" style="margin-left: 17%;">
+            <div class="header" style="background-color: white; width: 100%;">
+                <p style="padding-left: 36px;"><span style="color:#828282;font-weight:500;font-size:16px;">
+                        Page
+                    </span><span style="color:#828282;font-weight:500;font-size:20px;padding-left:8px">&#8250</span>
+                    <span style="color: #223354;font-weight:500;padding-left:8px;font-size:16px;">Invoice
+                        Generator</span>
+                </p>
+                <div class="top-right">
+                    <img src="./EMI-02/icon/help.png" alt="" width="20px" height="20px" style="padding-top: 10px;"><span
+                        style="margin-left: 10px;padding-top:12px;">Need Help?</span>
+                    <hr>
+                    <img src="./EMI-02/icon/Yahya.png" alt="" width="40px" height="40px">
+                </div>
+            </div>
+
+            <div class="invoice-content">
+                <div class="invoice-field">
+                    <div class="invoice-field-left">
+                        <div class="td-01">
+                            <label for="name-1">Invoice Name</label><br>
+                            <input type="text" name="name-1" id="name-1" placeholder="Input Text">
+                        </div>
+    
+                        <div class="td-01">
+                            <label for="date-1">Due Date </label><br>
+                            <input type="text" name="date-1" id="date-1" placeholder="Input Text">
+                        </div>
+    
+                        <div class="td-01">
+                            <label for="text-1"></label><br>
+                            <textarea name="" id="text-1" placeholder="Who is this invoice from? (required)"></textarea>
+                        </div>
+                    </div>
+    
+                    <div class="invoice-field-middle">
+                        <div class="td-01">
+                            <label for="inv-num">Invoice Number</label><br>
+                            <input type="text" name="" id="inv-num" placeholder="Input Text">
+                        </div>
+                        <div class="td-01">
+                            <label for="po-num">PO Number</label><br>
+                            <input type="text" name="" id="po-num" placeholder="Input Text">
+                        </div>
+                        <div class="td-01">
+                            <label for="text-2">Bill to</label><br>
+                            <textarea name="" id="text-2" placeholder="Who is this invoice from? (required)"></textarea>
+                        </div>
+                    </div>
+    
+                    <div class="invoice-field-right">
+                        <div class="td-01">
+                            <label for="date-2">Date</label><br>
+                            <input type="text" name="" id="date-2" placeholder="Pick a date">
+                            <img src="./EMI-02/icon/Line.png" alt="">
+                        </div>
+                        <div class="td-01">
+                            <label for="pay-term">Payment Terms</label><br>
+                            <input type="text" name="" id="pay-term" placeholder="Input Text">
+                        </div>
+                        <div class="td-01">
+                            <label for="ship">Ship to</label><br>
+                            <textarea name="" id="ship" placeholder="(optional)"></textarea>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="invoice-table">
+                    <h2>Table Name</h2>
+                    <div class="table-01">
+                        <table>
+                            <tr>
+                                <td>No</td>
+                                <td>Item Name</td>
+                                <td>Quantity</td>
+                                <td>Rate</td>
+                                <td>Amount</td>
+                            </tr>
+
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <input type="text" placeholder="Description of service or product" value="Loreal professional shampoo (250ml)">
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="1" value="1">
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="0" value="500" class="name-pos-rel">
+                                    <span class="name-pos-01">&#8377</span>
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="0" value="500" class="name-pos-rel">
+                                    <span class="name-pos">&#8377</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <input type="text" placeholder="Description of service or product">
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="1">
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="0" class="name-pos-rel">
+                                    <span class="name-pos-01">&#8377</span>
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="0" class="name-pos-rel">
+                                    <span class="name-pos">&#8377</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <button class="btn">Add</button>
+                </div>
+    
+                <div class="invoice-gen">
+                    <div class="gen-left">
+                        <img src="./EMI-02/icon/INVOICE GEN.png" alt="">
+                    </div>
+                    <div class="gen-right">
+                        <div class="gen-01" style="padding-bottom: 30px;">
+                            <p class="font-p" style="padding-right: 75px;">Sub total</p>
+                            <div class="gen-01-01">
+                                <p>500</p>
+                                <span class="rupee">&#8377</span>
+                            </div>
+                        </div>
+                        <div class="gen-01" style="padding-bottom: 30px;">
+                            <p class="font-p">Discount</p>
+                            <div class="kk-percent">
+                                <input type="text" value="20" placeholder="20">
+                                <span class="rupee percent">&#x25</span>
+                            </div>
+                        </div>
+                        <div class="gen-01">
+                            <p class="font-p" style="padding-right: 75px;">Sub total</p>
+                            <div class="gen-01-01">
+                                <p>500</p>
+                                <span class="rupee">&#8377</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="invoice-footer">
+                    <div class="footer-left">
+                        <p class="font-p">Notes</p>
+                        <div class="foot-div">
+                            <p>Notes - any relevant information not already covered</p>
+                        </div>
+                    </div>
+                    <div class="footer-right">
+                        <p class="font-p">Terms</p>
+                        <div class="foot-div">
+                            <p>Terms and conditions - late fees, payment methods, delivery schedule</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

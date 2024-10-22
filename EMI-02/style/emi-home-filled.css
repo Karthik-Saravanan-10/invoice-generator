@@ -258,3 +258,11 @@ a:first-child {
     margin-left: -29px;
     border: 1px solid #EFEFEF;
 }
+
+input::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+}

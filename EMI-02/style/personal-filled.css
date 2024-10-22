@@ -239,7 +239,7 @@ a:last-child{
 }
 
 .sec-2{
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
 .tab-content-01{
@@ -259,4 +259,12 @@ a:last-child{
     width: 399px;
     margin-left: -29px;
     border: 1px solid #EFEFEF;
+}
+
+input::-webkit-inner-spin-button{
+    appearance: none;
+}
+
+.btn:hover{
+    cursor: pointer;
 }
